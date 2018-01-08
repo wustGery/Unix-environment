@@ -26,7 +26,6 @@ const int buf_size = 4096;
 
 int main()
 {
-    char str[] = {"i am fanbo"};
     int fd[2];
     pipe(fd);//创建管道
     pid_t pid = fork();
